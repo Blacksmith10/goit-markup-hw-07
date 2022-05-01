@@ -1,0 +1,31 @@
+// LOGO
+
+.main-nav__logo {
+  color: $logo-main-color;
+  text-decoration: none;
+  font-family: Raleway, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-blue {
+  color: $accent-color;
+  text-decoration: none;
+  font-family: Raleway, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.footer__logo {
+  display: inline-block;
+  margin-bottom: 20px;
+
+  color: $logo-second-color;
+  text-decoration: none;
+  font-family: Raleway, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
