@@ -1,3 +1,15 @@
+.main-nav__logo, .logo-blue, .footer__logo {
+  font-family: Raleway, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.section-details, .section-team, .section-clients, .section-products {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 body {
   background-color: #ffffff;
   color: #757575;
@@ -39,19 +51,11 @@ body {
 .main-nav__logo {
   color: #000000;
   text-decoration: none;
-  font-family: Raleway, Tahoma, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
 }
 
 .logo-blue {
   color: #2196f3;
   text-decoration: none;
-  font-family: Raleway, Tahoma, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
 }
 
 .footer__logo {
@@ -59,10 +63,6 @@ body {
   margin-bottom: 20px;
   color: #ffffff;
   text-decoration: none;
-  font-family: Raleway, Tahoma, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
 }
 
 .site-nav {
@@ -208,11 +208,6 @@ body {
   color: #ffffff;
 }
 
-.section-details {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .features {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -311,8 +306,6 @@ body {
 }
 
 .section-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: #f5f4fa;
 }
 
@@ -399,11 +392,6 @@ body {
 .team-links__icon:hover, .team-links__icon:focus {
   background-color: #2196f3;
   fill: #ffffff;
-}
-
-.section-clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .clients-links {
@@ -783,7 +771,7 @@ body {
 .form__comment::-webkit-input-placeholder {
   font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.16;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
@@ -791,7 +779,7 @@ body {
 .form__comment:-ms-input-placeholder {
   font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.16;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
@@ -799,7 +787,7 @@ body {
 .form__comment::-ms-input-placeholder {
   font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.16;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
@@ -807,7 +795,7 @@ body {
 .form__comment::placeholder {
   font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.16;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
@@ -868,11 +856,6 @@ body {
 
 .submit__field {
   text-align: center;
-}
-
-.section-products {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .filters {

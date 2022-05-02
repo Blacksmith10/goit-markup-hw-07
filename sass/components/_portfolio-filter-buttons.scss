@@ -1,6 +1,5 @@
 .section-products {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  @extend %padding-top-bottom;
 }
 
 .filters {
